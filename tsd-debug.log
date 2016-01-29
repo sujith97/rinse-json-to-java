@@ -1,0 +1,33 @@
+[ERR!] cwd  : /home/sbheemir/projects/node/rinse-json-to-java
+[ERR!] os   : Linux 2.6.32-504.el6.x86_64
+[ERR!] argv : "/usr/bin/node" "/usr/bin/tsd" "install"
+[ERR!] node : v5.4.0
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: unexpected status code: 401 on: https://api.github.com/repos/borisyankov/DefinitelyTyped/branches/master
+[ERR!] CODE : undefined
+[ERR!] unexpected status code: 401 on: https://api.github.com/repos/borisyankov/DefinitelyTyped/branches/master
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+Error: unexpected status code: 401 on: https://api.github.com/repos/borisyankov/DefinitelyTyped/branches/master
+    at Request.<anonymous> (/usr/lib/node_modules/tsd/build/http/CacheStreamLoader.js:162:28)
+    at emitOne (events.js:77:13)
+    at Request.emit (events.js:169:7)
+    at Request.onRequestResponse (/usr/lib/node_modules/tsd/node_modules/request/request.js:951:10)
+    at emitOne (events.js:77:13)
+    at ClientRequest.emit (events.js:169:7)
+    at HTTPParser.parserOnIncomingClient (_http_client.js:427:21)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+    at TLSSocket.socketOnData (_http_client.js:317:20)
+    at emitOne (events.js:77:13)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{"q/Q.d.ts":{"commit":"ba424f7ee39717d51c17699a09ac8df312a7e9a1"},"node/node.d.ts":{"commit":"ba424f7ee39717d51c17699a09ac8df312a7e9a1"},"fs-extra/fs-extra.d.ts":{"commit":"ba424f7ee39717d51c17699a09ac8df312a7e9a1"}}}
+
+[ERR!] .tsdrc : {
+    "token": "75d92a9bee3806ce98fb3090f6ece4cedbf2f778"
+}
+
+[ERR!] Please include the following file with any support request:
+    /home/sbheemir/projects/node/rinse-json-to-java/tsd-debug.log
+
