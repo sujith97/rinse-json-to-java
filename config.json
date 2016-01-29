@@ -1,0 +1,17 @@
+[
+  {
+    "jsonTestProps": {
+      "testFileDir": "/home/sbheemir/projects/oms-backend_trunk/test/release-test/src/integTest/testcase",
+      "excludeTestDirs": [],
+      "excludeTestFiles": []
+    },
+
+    "javaTestProps": {
+      "projectRoot": "/home/sbheemir/projects/oms-backend_trunk/test/release-test-gen",
+      "classPath": "src/integTest/java",
+      "testSubFolder" : "tests",
+      "packageRoot": "com/linkedin/oms",
+      "generated": "src/integTest/generated"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+{
+    "version": "1.5.0",
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": false,
+        "target": "es5",
+        "experimentalDecorators": true,
+        "outDir": "./release"
+    },
+    "exclude": [
+        "typings",
+        "node_modules"
+    ]
+}

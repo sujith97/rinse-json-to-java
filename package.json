@@ -1,0 +1,21 @@
+{
+  "name": " rinse-json-to-java",
+  "version": "0.0.1",
+  "description": "Rinse generator helper which produces Java code from old rINse JSON tests",
+  "main": "release/starter.js",
+  "scripts": {
+    "deps": "npm install && tsd install && tsc || true",
+    "generate": "node release/starter.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sujith Bheemireddi",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "fs-extra": "^0.26.2",
+    "q": "^1.4.1"
+  }
+}
